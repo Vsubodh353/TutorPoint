@@ -1,0 +1,186 @@
+html,
+body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.section-header {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+.site-btn{
+    display: inline-block;
+    min-width: 195px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    background: rgb(245, 83, 9);
+}
+.site-btn:hover{
+    color: aliceblue;
+}
+.site-logo{
+    display: inline-block;
+}
+.main-menu ul{
+    list-style: none;
+}
+.main-menu ul li{
+    display: inline;
+}
+.main-menu ul li a{
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(252, 248, 248);
+    margin-left: 45px;
+    font-weight: 600;
+    padding: 20px 0px 5px;
+}
+.main-menu ul li a:hover{
+    color: rgb(252, 48, 13);
+}
+.hero-section{
+    height: 800px;
+}
+.hero-text{
+    text-align: center;
+    margin-top: 340px;
+    margin-bottom: 105px;
+}
+.hero-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.intro-newslatter input[type=text],
+.intro-newslatter input[type=email] {
+	height: 50px;
+	width: 35%;
+	padding: 0 30px;
+	margin-right: 22px;
+	float: left;
+	border: none;
+	font-size: 14px;
+}
+
+.site-btn {
+    min-width: 214px;
+}
+
+.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    padding-bottom: 10px;
+}
+.section-title h4{
+    padding-bottom: 30px;
+}
+.categories-section .container{
+    margin-bottom: 25px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    background-color: lightgreen;
+    margin-top: 300px;
+}
+.card{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card:hover{
+   background-color:  aqua;
+}
+.search-section{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.search-wrap{
+    background: rgb(116, 7, 3);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.search-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.course-search-form{
+    background: white;
+    padding: 44px 38px;
+}
+.course-search-form input[type=text],
+.course-search-form input[type=email]{
+    height: 50px;
+    padding: 0px 30px;
+    margin-right: 85px;
+    float: left;
+    border: none;
+    font-size: 14px;
+}
+.course-search-form input[type=text]:focus,
+.course-search-form input[type=email]:focus {
+	border-bottom: 2px solid #d82a4e;
+}
+.course-search-form .site-btn {
+    min-width: 198px;
+	padding: 16px 10px;
+}
+.contact-form-wrap{
+    background: #720602;
+    padding: 45px 47px;
+}
+.contact-form{
+    padding: 69px 40px 47px;
+    background: rgb(252, 252, 251);
+}
+.contact-form input{
+    margin: 10px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    background: rgb(203, 215, 250);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.contact-form-warp .section-title {
+	padding: 0 15px;
+	margin-bottom: 50px;
+}
+.contact-info-area{
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.section-title{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.phone-number{
+    margin-bottom: 50px;
+}
+.contact-list{
+    padding-bottom: 15px;
+}
+.contact-info-area ul li{
+    padding: 15px;
+}
+.social-links a{
+    padding: 15px;
+}
+.section-title1{
+    padding-bottom: 10px;
+}
